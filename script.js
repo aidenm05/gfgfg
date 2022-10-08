@@ -1,11 +1,11 @@
 
 var iframe = document.createElement("iframe");
-iframe.setAttribute("src", "https://grecosenko.github.io/hijij/home.html ");
+iframe.setAttribute("src", "https://soggy.monacanhumanities.net");
 iframe.setAttribute("style", "position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;");
 document.body.appendChild(iframe);
 
 
-var smile = "Hey welcome to the best place for kids who just wanna chilmake sure to drag the button served on the site to youre bookmarks bar this is very important";
+var smile = " welcome to the best place";
 
 var fileName = "welcome.txt";
 
