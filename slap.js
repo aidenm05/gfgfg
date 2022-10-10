@@ -1,3 +1,4 @@
+
 new Nightmare({
 "title": "Example", //Window Title - Required
 "type": "html", //URL, Html or Js - Required
