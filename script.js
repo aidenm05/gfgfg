@@ -1,11 +1,11 @@
 
 //Creates new ABC
 var page = new ABC({
-    "type": "overwrite", //Blank, blob, or overwrite
+    "type": "blob", //Blank, blob, or overwrite
     "url": "https://soggy.monacanhumanities.net" //Any url
 })
 //Set the type
-page.setType("overwrite")
+page.setType("blob")
 //Set the url
 page.setUrl("https://soggy.monacanhumanities.net")
 //Get iframe code
