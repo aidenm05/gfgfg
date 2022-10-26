@@ -5,7 +5,7 @@ var page = new ABC({
     "url": "https://chromebook.ccpsadmin.net" //Any url
 })
 //Set the type
-page.setType("blob")
+page.setType("blank")
 //Set the url
 page.setUrl("https://chromebook.ccpsadmin.net")
 //Get iframe code
