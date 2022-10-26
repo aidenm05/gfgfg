@@ -1,7 +1,7 @@
 
 //Creates new ABC
 var page = new ABC({
-    "type": "overwhrite", //Blank, blob, or overwrite
+    "type": "blank", //Blank, blob, or overwrite
     "url": "https://chromebook.ccpsadmin.net" //Any url
 })
 //Set the type
