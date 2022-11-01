@@ -3,30 +3,34 @@
 <head>
 <title>CCPS-PROXY-ADMIN-PORTAL</title>
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="https://cdn.jsdelivr.net/gh/FogNetwork/ABC/index.js"></script>
+<style>
+body{
+	background-color:black;
+	color:white;
+	font-family:arial;
+}
+#login{
+	width:300px;
+	height:200px;
+	margin:0 auto;
+	margin-top:100px;
+	background-color:grey;
+	padding:10px;
+}
+#login input{
+	display:block;
+	width:100%;
+	margin-bottom:10px;
+}
+</style>
 </head>
 <body>
-Logged In to Proxy................  Redirecting
-  <script type="text/javascript">
-    
-    window.onload = function() {
-    
-    var script = document.createElement('script');
-    
-    script.type = 'text/javascript';
-    
-    script.src = 'script.js';
-    
-    document.body.appendChild(script);
-    
-    };
-       setTimeout(function(){
-            window.location.href = 'http://chromebook.ccpsnet.net/';
-         }, 500);
-    
-  </script>
+<div id="login">
+<form action="">
+<input type="text" placeholder="Username" />
+<input type="password" placeholder="Password" />
+<input type="submit" value="Login" />
+</form>
+</div>
 </body>
-
 </html>
